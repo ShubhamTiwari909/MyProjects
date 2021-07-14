@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+
+/*Navbar css*/
+
+.nav-link
+{
+    font-family: 'Bona Nova', serif;
+    font-size: larger;
+    margin: 0 1.3rem;
+    transition: all 0.5s ease;  
+}
+
+.nav-link:hover
+{
+    transform: scale(1.3);
+}
+
+.btn-success
+{
+    transition: all 0.5s ease; 
+}
+
+.btn-success:hover
+{
+    background-color: blueviolet;    
+}
+
+
+/*Banner css*/
+
+.banner
+{
+    width: 100%;
+    height: 115vh;   
+}
+
+
+/*Why coders academy part css*/
+.WhyAcademyWorks
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    margin-bottom: 8rem;
+}
+
+.WhyCard1,.WhyCard2,.WhyCard3
+{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 8px;
+    margin: 1rem;
+    transition: all 0.7s ease;
+}
+
+.WhyCard1,.WhyCard3
+{
+    margin-top: 5rem;
+    transform: skewY(-7deg);
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: white;
+}
+
+.WhyCard2
+{
+    color: black;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+}
+
+.WhyCard3
+{
+    transform: skewY(7deg)
+}
+
+.WhyCard1:hover{
+    transform: translateX(300px) scale(1.4);
+    color: black;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    
+}
+
+.WhyCard2:hover
+{
+    transform: scale(1.4);
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    color: white;
+}
+
+.WhyCard3:hover
+{
+    transform: translateX(-300px) scale(1.4);
+    color: black;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+}
+
+
+.WhyCard1 > .btn ,.WhyCard2 > .btn, .WhyCard3 > .btn 
+{
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+}
+
+
+
+
+
+/*Languages Grid system css*/
+.LanguageTemplate-1,.LanguageTemplate-2,.LanguageTemplate-3
+{
+    margin: 2rem 0;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;  
+}
+
+.LanguageTemplate-2
+{   
+    margin-top: 0;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.LanguageTemplate-3
+{
+    margin-top: 0;
+    padding-top: 3rem;
+}
+
+.LanguageTemplate-1-image,.LanguageTemplate-2-image,.LanguageTemplate-3-image
+{
+    width: 24rem;
+    height: 15rem;
+    display: block;
+    margin:0 auto;
+}
+
+.LanguageTemplate-1-content,.LanguageTemplate-2-content,.LanguageTemplate-3-content
+{
+    margin-top: 7rem;
+    background-color: cornsilk;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.LanguageTemplate-2-content
+{
+    width: 25rem;  
+}
+
+.LanguageTemplate-3-content
+{
+    width: 25rem;
+    margin-top: 0;
+}
+
+.LanguageTemplate-2-image,.LanguageTemplate-3-image
+{
+    width: 100%;
+}
+
+
+
+/*Service part css*/
+.services
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin:5rem 0 8rem 0 ;
+}
+
+.services > .card 
+{
+    transition: all 0.6s ease;
+}
+
+.services > .card:hover
+{
+    transform: scale(1.3);
+}
+
+
+
+
+/*Subscribe to our news letter css*/
+.NewsLetter
+{
+    height: 80vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    margin-top: -4rem;
+}
+
+
+
+
+/*footer*/
+.Footer
+{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    display: flex;
+    height: 60vh;
+    padding-top: 2rem;
+    color: blanchedalmond;
+}
+
+.left-side
+{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-social-sites
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side
+{
+    flex: 1;
+}
+
+.contact-input-textarea
+{
+    height: 20vh;
+}
+
+
+.book-now
+{
+    color: white;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    font-style: italic;
+    margin-top: 1rem;
+    padding: 0.8rem;
+}
+
+.book-now:hover
+{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    color: black;
+}
+
+
+
+
+
+/*Media Queries*/
+@media only screen and (min-width: 350px) and (max-width:900px) 
+{
+   .Banner-image{
+       height: 55vh;
+       width: 100%;
+   }
+   .WhyAcademyWorks
+    {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        justify-items: center;
+        margin-bottom: 8rem;
+    }
+    .WhyCard1,.WhyCard2,.WhyCard3
+    {
+        margin: 2.5rem 0;
+    }
+
+    .WhyCard1,.WhyCard3
+    {
+        margin-top: 2.5rem;
+        transform: skewY(0deg);
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        color: white;
+    }
+
+    .WhyCard3
+    {
+        transform: skewY(0deg)
+    }
+
+    .WhyCard1:hover{
+        transform: scale(1.3);
+        color: black;
+        background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);   
+    }
+
+    .WhyCard2:hover
+    {
+        transform: scale(1.4);
+        background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        color: white;
+    }
+
+    .WhyCard3:hover
+    {
+        transform: scale(1.3);
+        color: black;
+        background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    }
+
+    .LanguageTemplate-1,.LanguageTemplate-2,.LanguageTemplate-3
+    {
+     
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;  
+    }
+
+    .LanguageTemplate-2
+    {   
+        margin-top: 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .LanguageTemplate-1-content,.LanguageTemplate-2-content,.LanguageTemplate-3-content
+    {
+        margin: 0.5rem 0 3rem 0;
+        width: 25rem;
+    }
+
+    .LanguageTemplate-2-content         
+    {
+        width: 20rem;  
+    }
+
+    .services
+    {
+        margin: 3rem 0 0 0;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .services > .card 
+    {
+        width: 70%;
+        transition: all 0.6s ease;
+        margin: 3.5rem 0;
+    }
+
+    .services > .card:hover
+    {
+        transform: scale(1.2);
+    }
+
+    .AboutUs-image{
+        width:100%;
+    }
+
+    .NewsLetter-heading{
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 1px black;
+    }
+
+
+    .left-side
+    {
+        margin: 0 0.6rem 0 0;
+    }
+
+
+    .right-side
+    {
+        flex: 0.9;
+        margin: 0 0 0 1.5rem;
+    }
+
+    .contact-input-textarea
+    {
+        height: 20vh;
+    }
+    .navbar-nav{
+        display: block;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width:900px) 
+{
+   .Banner-image{
+       height: 85vh;
+       width: 100%;
+   }
+   .WhyAcademyWorks
+    {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    .WhyCard1,.WhyCard2,.WhyCard3
+    {
+        width: 75%;
+        margin: 2.5rem 0;
+        
+    }
+   
+ 
+}
+@media only screen and (min-width: 750px) and (max-width:1100px) {
+  .LanguageTemplate-1,.LanguageTemplate-2,.LanguageTemplate-3
+    {   
+        margin-top: 0;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .LanguageTemplate-1-content,.LanguageTemplate-2-content,.LanguageTemplate-3-content
+    {
+        width: 24rem;  
+    }
+    .Banner-image{
+        height: 85vh;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width:1400px) {
+
+    .Banner-image{
+        height: 105vh;
+        width: 100%;
+    }
+    .LanguageTemplate-2
+    {   
+        margin-top: 0;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .LanguageTemplate-1-content,.LanguageTemplate-2-content,.LanguageTemplate-3-content
+    {
+        width: 24rem;  
+    }
+}
