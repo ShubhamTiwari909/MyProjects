@@ -1,0 +1,60 @@
+.card
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70rem;
+}
+
+.university-name,.university-address,.location,.exam-type,.Year,.paper-set
+{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(23, 21, 21);
+}
+.university-address{
+    font-size: 1.2rem;
+}
+
+.Year{
+    font-style: italic;
+    color: rgb(33, 33, 33);
+}
+.subject-group
+{
+   
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: space-between;
+   align-items: flex-start;
+   font-size: 1rem;
+   padding-top: 1.5rem;
+   padding: 0 10rem;
+}
+
+.subject-name,.subject-course,.subject-time,.subject-code
+{
+    font-size: 1rem;
+}
+
+.subject-name,.subject-course{
+
+    padding-right: 18rem;
+}
+.instructions
+{
+    padding-left: 10rem;
+    padding-top: 2rem;
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.question
+{
+    padding: 2rem 8rem;
+}
+.paper-set{
+    padding: 2rem 0;
+}
